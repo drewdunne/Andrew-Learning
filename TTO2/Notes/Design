@@ -1,0 +1,62 @@
+Public abstract class State
+{
+
+}
+
+
+
+Public class MenuState
+{
+    public MenuState()
+    {
+
+    }
+
+    Public Run()
+    {
+        Output.Print()
+    }
+}
+
+Public class PlayingState
+{
+    Public PlayingState()
+    {
+
+    }
+
+    Public Run()
+    {
+        Output.Print(welcomeMessage)
+    }
+}
+
+
+public class DialogueLibrary()
+{
+    public DialogueLibrary()
+    {
+
+    }
+
+    public DialogueLibrary(Menu currentState)
+    {
+        // DialogueLibrary Dictionary for MenuState
+    }
+
+    public DialogueLibrary(PlayngState currentState)
+    {
+        // DialogueLibrary Dictionary for PlayingState
+    }
+
+}
+
+Public class Output()
+{
+    Print(x)
+    {
+        Console.WriteLine(x);
+    }
+}
+
+

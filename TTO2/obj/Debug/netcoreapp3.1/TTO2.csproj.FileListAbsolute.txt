@@ -1,0 +1,11 @@
+/Users/adunne/Documents/GitHub/Andrew-Learning/TTO2/bin/Debug/netcoreapp3.1/TTO2
+/Users/adunne/Documents/GitHub/Andrew-Learning/TTO2/bin/Debug/netcoreapp3.1/TTO2.deps.json
+/Users/adunne/Documents/GitHub/Andrew-Learning/TTO2/bin/Debug/netcoreapp3.1/TTO2.runtimeconfig.json
+/Users/adunne/Documents/GitHub/Andrew-Learning/TTO2/bin/Debug/netcoreapp3.1/TTO2.runtimeconfig.dev.json
+/Users/adunne/Documents/GitHub/Andrew-Learning/TTO2/bin/Debug/netcoreapp3.1/TTO2.dll
+/Users/adunne/Documents/GitHub/Andrew-Learning/TTO2/bin/Debug/netcoreapp3.1/TTO2.pdb
+/Users/adunne/Documents/GitHub/Andrew-Learning/TTO2/obj/Debug/netcoreapp3.1/TTO2.csprojAssemblyReference.cache
+/Users/adunne/Documents/GitHub/Andrew-Learning/TTO2/obj/Debug/netcoreapp3.1/TTO2.AssemblyInfoInputs.cache
+/Users/adunne/Documents/GitHub/Andrew-Learning/TTO2/obj/Debug/netcoreapp3.1/TTO2.AssemblyInfo.cs
+/Users/adunne/Documents/GitHub/Andrew-Learning/TTO2/obj/Debug/netcoreapp3.1/TTO2.dll
+/Users/adunne/Documents/GitHub/Andrew-Learning/TTO2/obj/Debug/netcoreapp3.1/TTO2.pdb
