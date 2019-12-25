@@ -1,3 +1,7 @@
+using System;
+using System.Collections;
+using System.Linq;
+
 namespace TTO2
 {
     class Application
@@ -10,13 +14,16 @@ namespace TTO2
         {
             renderer = new Output();
             reader = new Input();
-            _currentState = new MenuState();
+            _currentState = new MenuState(reader, renderer);
 
         }
         
         public void Run()
         {
-            _currentState = _currentState.Run(reader, renderer);
+            do
+            {
+                _currentState = _currentState.Run();
+            } while (_currentState != null);
         }
     }
 }

@@ -2,7 +2,7 @@ using System;
 
 namespace TTO2
 {
-    class Input
+    public class Input
     {
         public Input()
         {

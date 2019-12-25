@@ -1,17 +1,28 @@
+
 using System;
 
 namespace TTO2
 {
-    abstract class State
+    public abstract class State
     {
-        public State()
+
+        #region Public : CONSTRUCTORS
+
+        public State(Input areader, Output arenderer)
         {
-            
+            reader = areader;
+            renderer = arenderer;
         }
 
-        public virtual State Run(Input reader, Output renderer)
-        {
-            throw new NotImplementedException();
-        }
+        #endregion
+        public abstract State Run();
+        
+        #region Private : VARIABLES
+        protected Input reader;
+        protected Output renderer;
+
+        protected State _nextState;
+        #endregion
+
     }
 }

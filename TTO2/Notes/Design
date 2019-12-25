@@ -59,4 +59,13 @@ Public class Output()
     }
 }
 
+State runs
+Then, the state retrns the next state it wants to run.
+
+State is sent to a Stackchecker, which checks to see if the requested 
+state is at the top of the stack. If so, it pops it off.
+If it's not, it puts it on the stack.
+
+This makes it extremely important that a player navigates out the same way they came in.
+
 
