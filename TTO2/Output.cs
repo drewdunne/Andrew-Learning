@@ -33,11 +33,16 @@ namespace TTO2
             System.Console.Write(output);
         }
 
+        public void CleanUpInterface()
+        {
+            Console.Clear();
+        }
+
         #region Board Rendering
         public void RenderGameboardRow(Square[] squaresToPrint)
         {
             RowPosition _rowType = GetRowType(squaresToPrint[0]);
-            
+
             switch (_rowType)
             {
                 case RowPosition.TopOfBoard: // Top Row
@@ -113,5 +118,6 @@ namespace TTO2
         }
 #endregion
 
+        
     }
 }
